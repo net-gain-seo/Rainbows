@@ -1,0 +1,544 @@
+.dropshadow {
+    -webkit-box-shadow: 0px 5px 11px 2px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 11px 2px rgba(0,0,0,0.3);
+    z-index: 99;
+    position: relative;
+}
+.backgroundcolor{
+  background: rgb(1,209,255);
+  background: linear-gradient(180deg, rgba(1,209,255,1) 0%, rgba(0,119,213,1) 100%);
+}
+
+.backgroundcolor.invert{
+  background: rgb(1,209,255);
+  background: linear-gradient(180deg, rgba(0,119,213,1) 0%, rgba(1,209,255,1) 100%);
+}
+.wesection{
+  .col{
+    padding: 0px 5rem;
+    h2, p{
+      color: white;
+    }
+  }
+}
+.StrategicPrinciples{
+  .col{
+    background-color: $lightGray;
+    color: $darkGray;
+    padding: 4rem 2rem;
+    flex: 0 0 31%;
+
+    margin-bottom: 4rem;
+    min-height: 300px;
+  }
+}
+
+.servicesection{
+  .col{
+    background-color: $lightGray;
+    padding: 0px;
+    flex: 0 0 31%;
+    max-width: 360px;
+    h2, p, .orangesection{
+      padding: 0px 25px;
+    }
+    h2{
+      color: $primaryColor;
+      margin-top: 30px;
+      margin-bottom: 14px;
+    }
+    p{
+      min-height: 160px;
+      margin-bottom: 0px;
+      color: $darkGray;
+    }
+    .orangesection{
+      background-color: $secondaryColor;
+      color: white;
+      width: 100%;
+      padding: 10px 25px;
+      display: block;
+      &:hover{
+        background-color: $primaryColor;
+        color: white;
+      }
+    }
+  }
+}
+.servicesection.nop{
+  .col{
+    background-color: $lightGray;
+    padding: 0px;
+    flex: 0 0 31%;
+    h2, p, .orangesection{
+      padding: 10px 25px;
+    }
+    h2{
+      color: $primaryColor;
+      margin-top: 10px;
+      margin-bottom: 14px;
+    }
+    p{
+      min-height: 140px;
+      margin-bottom: 0px;
+      color: $darkGray;
+    }
+    .orangesection{
+      background-color: $secondaryColor;
+      color: white;
+      width: 100%;
+      padding: 10px 25px;
+      display: block;
+      &:hover{
+        background-color: $primaryColor;
+        color: white;
+      }
+    }
+  }
+}
+.servicesectiontwo.nop{
+  .col{
+    background-color: $lightGray;
+    padding: 0px;
+    flex: 0 0 47%;
+    h2, p, .orangesection{
+      padding: 10px 25px;
+    }
+    h2{
+      color: $primaryColor;
+      margin-top: 10px;
+      margin-bottom: 14px;
+    }
+    p{
+      min-height: 140px;
+      margin-bottom: 0px;
+      color: $darkGray;
+    }
+    .orangesection{
+      background-color: $secondaryColor;
+      color: white;
+      width: 100%;
+      padding: 10px 25px;
+      display: block;
+      &:hover{
+        background-color: $primaryColor;
+        color: white;
+      }
+    }
+  }
+}
+.orangebanner{
+  background-color: $secondaryColor;
+  color: white;
+  width: 100%;
+  padding: 10px 25px;
+  display: block;
+  color: white;
+  margin-bottom: 20px;
+  a, p{
+    background-color: $secondaryColor;
+    color: white;
+  }
+  &:hover{
+    background-color: $primaryColor;
+    color: white;
+    a, p{
+      background-color: $primaryColor;
+      color: white;
+    }
+  }
+}
+.findrainbows{
+  margin-top: 3rem;
+  .row{
+      padding: 1rem 0rem;
+      .orangebanner{
+        &:hover{
+          background-color: $primaryColor;
+          color: white;
+        }
+      }
+  }
+}
+.missionsection{
+    p {
+        font-size: 2rem;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+        color: white;
+    }
+    h3{
+      color: white;
+    }
+  .mission{
+    text-align: center;
+    color: white;
+    h2{
+      margin-top: 2rem;
+      color: white;
+    }
+    h3{
+      color: white;
+    }
+  }
+}
+.RegisteredSite{
+  h3, p {
+    margin-bottom: 5rem;
+  }
+  p{
+    font-size: 2.4rem;
+    line-height: 1.2;
+  }
+}
+.bookresources{
+  margin-top: 4rem;
+
+  a.button{
+    top: -200px;
+    left: 50px;
+    position: relative;
+
+  }
+}
+.GriefandLoss{
+  .greybanner{
+    background-color: $lightGray;
+    padding: 10px 25px;
+  }
+  .recommendedbook{
+    padding: 4rem 0px;
+    h3{
+      margin-bottom: 0rem;
+      color: $primaryColor;
+    }
+    a{
+      color: $textColor;
+    }
+  }
+}
+.page-id-336{
+  #fullWidth{
+    padding-top: 40px;
+  }
+}
+.bookaccordion{
+  max-width: 1170px;
+  width: 100%;
+  background-color:$lightGray;
+  padding: 10px 25px;
+  display: block;
+  margin: auto;
+  font-size: 2.7rem;
+  margin-bottom: 0rem;
+  color: $primaryColor;
+}
+.supportbanner{
+  min-height: 400px;
+}
+.whiteinfosection{
+    position: relative;
+    top: 25px;
+    float: right;
+    margin-right: 4rem;
+    padding: 65px 20px;
+    width: 400px;
+    text-align: center;
+    max-width: 1140px;
+    background-color: #f0efea4d;
+    border-radius: 15px;
+    h3 {
+        font-size: 5.5rem;
+        font-weight: normal;
+        margin-bottom: 1rem;
+        line-height: 1;
+        color: white;
+        text-align: center;
+        font-family: $fontLato;
+    }
+    p {
+        margin-bottom: 2rem;
+        color: white;
+        text-align: center;
+        font-size: 3rem;
+        font-family: $fontLato;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        .button{
+          display: inline-block;
+          text-align: left;
+        }
+    }
+}
+.orangeinfosection{
+  margin-bottom: 6rem;
+  p{
+    text-align: center;
+  }
+  .button{
+    color: $secondaryColor!important;
+    padding: 15px 10px;
+    -webkit-box-shadow: 0px 5px 11px 2px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 11px 2px rgba(0,0,0,0.3);
+    z-index: 99;
+    &:hover{
+      color: $primaryColor!important;
+    }
+  }
+}
+.historyboxes{
+  .row{
+    -webkit-box-pack: space-between!important;
+    -ms-flex-pack: space-between!important;
+    justify-content: space-between!important;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .col{
+    flex: 0 0 32%;
+    padding: 2rem;
+    h3{
+      font-size: 5.5rem;
+      color: white;
+    }
+  }
+}
+.ourprogramsection{
+  .row{
+    -webkit-box-pack: space-between!important;
+    -ms-flex-pack: space-between!important;
+    justify-content: space-between!important;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .col{
+    background-color: $lightGray;
+    flex: 0 0 32%;
+    padding: 0px;
+    margin-bottom: 8rem;
+  }
+  h2, h3, p{
+    padding: 0px 20px;
+  }
+  h2{
+    padding-top: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: $primaryColor;
+  }
+  h3{
+    color: $primaryColor;
+  }
+  p{
+    margin-bottom: 60px!important;
+  }
+}
+.programchoice{
+  h3{
+    color: $primaryColor;
+
+    span{
+      font-size: 20px;
+      color: $textColor;
+    }
+  }
+}
+.Greensection{
+  background-color: $green;
+  border-radius: 10px;
+  padding: 4rem;
+  max-width: 1140px;
+  margin: auto;
+  h3{
+    line-height: 1.2;
+    color: white;
+  }
+  p{
+    color: white;
+  }
+}
+.fullhr{
+  position: relative;
+  z-index: 11111;
+  margin: 0px;
+  border-top: 1px solid white;
+}
+.passionsection{
+  padding: 40px 0px;
+  padding-bottom: 20px;
+  .largetitle{
+    margin-bottom: 4rem;
+  }
+  h2{
+    margin-top: 5rem;
+    a:hover{
+      color: white;
+    }
+  }
+}
+.meetourteam{
+    padding: 60px 0px;
+  h2{
+    font-size: 5rem;
+    float: left;
+    display: inline-block;
+    color: white;
+    margin-right: 40px;
+    font-family: $fontLato;
+    font-weight: bold;
+  }
+  p{
+    float: left;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 15px;
+  }
+  img{
+    float: left;
+    display: inline-block;
+    width: 60px;
+    margin-top: -20px;
+    cursor: pointer;
+  }
+  img:hover{
+    opacity: 0.8;
+  }
+  h4{
+    font-size: 2.7rem;
+    float: left;
+    display: block;
+    color: white;
+    clear: both;
+    font-family: $fontLato;
+  }
+}
+.visionsimple{
+  h1{
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 6rem;
+  }
+  h3{
+    color: white;
+    font-size: 2.7rem;
+  }
+  p{
+    color: white;
+  }
+}
+.ourteam{
+  h2{
+    color: $primaryColor;
+    padding: 30px 0px;
+    margin-bottom: 0px;
+  }
+}
+.mapsection{
+  width: 100%;
+  padding: 0px!important;
+  margin-bottom: -2px;
+}
+.alignmentpadding{
+  padding: 4rem 0;
+}
+.contactsection{
+  .address{
+    h2{
+      margin-bottom: 0px;
+    }
+    padding: 30px 0px;
+  }
+  .phone{
+    font-size: 2.4rem;
+    color: $primaryColor;
+    padding: 30px 0px;
+    a{
+      color: $primaryColor;
+    }
+  }
+  .hours{
+      padding: 30px 0px;
+  }
+  .button.purple{
+      margin: 30px 0px;
+  }
+  .button.orange{
+      font-size: 2rem;
+      padding: 15px 40px;
+  }
+}
+// container-r on homepage
+/***********************************
+** Left/right aligned containers
+************************************/
+.container-fluid {
+    &.container-r,
+    &.container-l {
+        padding: 0; // get rid of the padding of the fluid container
+    }
+}
+// Defaults
+.container-r,
+.container-l {
+    .flexed {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: stretch;
+    }
+    .f-col {
+        flex: 1; // for now
+    }
+}
+.container-r {
+  background-color: $purple;
+    .f-info {
+        flex: 2;
+        order: 2;
+        padding: 4rem 5.5rem 8rem 1rem;
+        max-width: 50%;
+        padding: 4rem 40rem 4rem 2rem;
+        h3{
+          margin-bottom: 2rem;
+          color: white;
+        }
+        p {
+            margin-bottom: 6rem;
+            line-height: 1.2;
+            color: white;
+        }
+    }
+    .f-pics {
+        p { // stupid wordpress paragraphs
+            margin: 0;
+        }
+    }
+}
+
+.f-home {
+    .f-pics {
+        flex: 1;
+        order: 1;
+        background: url('img/secondhalf.jpg') center center no-repeat;
+        background-size: cover;
+    }
+}
+.orangeicon{
+  margin-bottom: -5.5rem;
+  z-index: 9;
+  position: relative;
+  display: block;
+  margin-top: 5.5rem;
+}
+.map{
+  margin-bottom: -7px;
+}
+.testimonials-listing{
+  padding: 40px 0px;
+}
+.testimonials-listing:nth-child(even){
+background-color: white;
+}
+.testimonials-listing:nth-child(odd){
+background-color: $lightGray;
+}

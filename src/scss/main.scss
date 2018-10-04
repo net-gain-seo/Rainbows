@@ -1,0 +1,54 @@
+/** COLORS */
+$textColor     : #58595b;
+$primaryColor  : #0091d5; // Dark Blue
+$secondaryColor: #ed8b00; // Dark Yellow
+$darkGray      : #58595b;
+$mediumGray    : #58595b; // footer contact bg
+$lightGray     : #f0efea;
+$linkColor     : $secondaryColor;
+
+$purple        : #981d97;
+$green         : #cedc00;
+$red           : #c5003e;
+$blue          : #71b2c9;
+
+
+
+$fontLato: 'Lato', 'Oswald', sans-serif;
+$fontAnton: 'Anton', 'Oswald', sans-serif;
+$fontOswald: 'Oswald', 'Lato',  sans-serif;
+
+$screen-lg-min: 1199px;
+$screen-lg-max: ($screen-lg-min - 1);
+$screen-md-min: 992px;
+$screen-md-max: ($screen-md-min - 1);
+$screen-sm-min: 768px;
+$screen-sm-max: ($screen-sm-min - 1);
+$screen-xsm-min: 576px;
+$screen-xsm-max: ($screen-xsm-min - 1);
+
+/** FONT SIZES */
+
+$htmlfs          : 10px; //10px
+$fsBody          : 2rem; // 20px
+$fsTitle         : 5rem; // 50px
+$fsH1            : 3rem; // 30px
+$fsH2            : 2.7rem; // 27px
+$fsH3            : 2.4rem; // 22px
+$fsH4            : $fsBody; // 20px
+
+/** PARTIALS */
+@import "base";
+@import "header";
+@import "forms";
+@import "woocommerce";
+@import "navigation";
+@import "mobile_nav";
+@import "content";
+@import "blog";
+@import "footer";
+@import "sliders";
+@import "slides";
+@import "overrides";
+@import "ie";
+@import "responsive";

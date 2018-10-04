@@ -1,0 +1,222 @@
+html{
+      font-size: $htmlfs;
+      overflow-y: scroll;
+}
+body {
+    font-family: $fontLato;
+    font-size: $fsBody;
+    background-color: #fff;
+    color: $textColor;
+    overflow-x: hidden;
+}
+.no-scroll {
+    overflow: hidden;
+    // position: fixed;
+    // height: 100%;
+    // width: 100%;
+    #openNavOverlay {
+        display: block;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: $linkColor;
+    text-decoration: none !important;
+    transition: color 0.2s ease-in-out;
+    &:hover {
+        color: $primaryColor;
+    }
+}
+.largetitle{
+  font-size: $fsH1;
+}
+h1 {
+    font-family: $fontLato;
+    font-size: $fsH1;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    color: $primaryColor;
+}
+h2,
+h3 {
+    font-family: $fontLato;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    color: $primaryColor;
+}
+h2 {
+    font-size: $fsH2;
+}
+h3 {
+    font-size: $fsH3;
+}
+p{
+  font-size: $fsBody;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+.title {
+    font-family: $fontLato;
+    font-size: $fsTitle;
+}
+.txt-primary {
+    color: $primaryColor;
+}
+.txt-secondary {
+    color: $secondaryColor;
+}
+.bg-light {
+    background-color: $lightGray;
+}
+#openNavOverlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99995;
+    display: none;
+    background-color: rgba(black,0.5);
+    overflow: hidden;
+}
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin: 2rem;
+  margin-left: 0;
+  padding-left: 25px;
+}
+li{
+  margin-bottom: 0.5rem;
+}
+/*.row{
+  padding: 60px 0px;
+}*/
+
+.semibold{
+  font-weight: 500;
+}
+.normalfont{
+  font-weight: normal;
+}
+.bold{
+  font-weight: bold;
+}
+.whiteText{
+  color: white!important;
+}
+.blackText{
+  color: black!important;
+}
+.primaryColor{
+  color: $primaryColor;
+}
+.text-align-center{
+  text-align: center;
+}
+.largefont p{
+    font-size: $fsH2;
+    margin-bottom: 3rem;
+    line-height: 1.5;
+}
+.button{
+  background-color: $primaryColor;
+  color: white;
+  border: 0px;
+  padding: 15px 20px;
+  line-height: 1;
+  font-size: 2rem;
+  cursor: pointer;
+  font-family: $fontLato;
+  border-radius: 10px;
+  &:hover{
+    background-color: $secondaryColor;
+    color: white;
+  }
+}
+
+
+
+.button.invert{
+  background-color: $secondaryColor;
+  color: white;
+  border: 0px;
+  padding: 15px 20px;
+  line-height: 1;
+  font-size: 2rem;
+  cursor: pointer;
+  font-family: $fontLato;
+  &:hover{
+    background-color: $primaryColor;
+    color: white;
+  }
+}
+
+
+.button.white{
+  background-color: white;
+  color: $secondaryColor;
+  border: 0px;
+  padding: 10px 50px;
+  line-height: 1;
+  font-size: 2rem;
+  cursor: pointer;
+  font-family: $fontLato;
+  &:hover{
+    background-color: white;
+    color: $primaryColor;
+  }
+}
+
+.button.orange{
+  background-color: $secondaryColor;
+  color: white;
+  border: 0px;
+  padding: 15px 20px;
+  line-height: 1;
+  font-size: 3rem;
+  cursor: pointer;
+  font-family: $fontLato;
+  &:hover{
+    background-color: white;
+    color: $secondaryColor;
+  }
+}
+
+.button.purple{
+  background-color: $purple;
+  color: white;
+  border: 0px;
+  padding: 15px 20px;
+  line-height: 1;
+  font-size: 2.4rem;
+  cursor: pointer;
+  font-family: $fontLato;
+  border: 1px solid white;
+  &:hover{
+    background-color: white;
+    color: $purple;
+    border: 1px solid $purple;
+  }
+}
+
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #666;
+    width: 100%;
+    text-align: center;
+}
+tbody tr:nth-child(odd) {
+    background-color: #ccc;
+}
+.maxwidthauto{
+  max-width: 1140px;
+  margin: auto;
+}

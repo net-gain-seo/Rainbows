@@ -1,0 +1,120 @@
+footer{
+  padding-top: 40px;
+  padding-bottom: 25px;
+  .logo{
+    align-self: flex-start;
+    float: left;
+    img{
+      float: left;
+      text-align: left;
+    }
+  }
+  .phone{
+    float: right;
+    clear: both;
+    display: block;
+    a{
+      font-weight: bold;
+      font-size: 3.5rem;
+      font-family: $fontLato;
+      color: white;
+      float: right;
+      margin-top: 40px;
+    }
+  }
+  .social{
+    float: right;
+    clear: both;
+    display: block;
+    margin-top: 10px;
+    a:hover{
+      opacity: 0.8;
+    }
+    img{
+      float: right;
+      margin-left: 15px;
+      &:hover{
+        opacity: 0.8;
+      }
+    }
+  }
+}
+.subfooter {
+    display: flex;
+    flex: 0;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 25px 0;
+    text-align: center;
+    .phone {
+        margin-bottom: 1.5rem;
+        font-size: 1.5625rem; // 25px
+    }
+}
+// FOOTER
+.site-footer {
+    background-color: $primaryColor;
+    color: #fff;
+
+    .copyright {
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 300;
+    }
+    .netgain {
+        font-family: Arial, sans-serif;
+        font-size: 1.6rem;
+    }
+}
+
+.flex-footer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    padding-top: 1.5rem;
+    .topbar{
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: baseline;
+      .f-item {
+          text-align: right;
+          flex: 1 0 33%;
+          padding-bottom: 1.5rem;
+          font-size: 2.4rem;
+      }
+      .phone-numbers, .address{
+        margin-top: 30px;
+      }
+    }
+    .bottombar{
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: baseline;
+      .f-item {
+          flex: 1 0 50%;
+          padding-bottom: 1.5rem;
+      }
+      .resource{
+        margin-top: 40px;
+        -ms-flex-item-align: start;
+        align-self: flex-start;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+    }
+}
+.netgain {
+    text-align: right;
+}
+.footer-contact-container {
+    text-align: center;
+    background-color: $darkGray;
+    color: #fff;
+    padding: 60px 0px;
+    h3{
+      font-size: 3rem;
+    }
+
+}

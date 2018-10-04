@@ -1,0 +1,58 @@
+/** Product Line Carousel */
+
+.slick-product-prev,
+.slick-product-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 9rem;
+    color: $secondaryColor;
+    &:focus {
+        color: darken($secondaryColor,10%);
+    }
+    &:hover {
+        color: $primaryColor;
+    }
+}
+.slick-product-next {
+    right: 0;
+}
+
+.slick-home-next,
+.slick-home-prev {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: none;
+    cursor: pointer;
+    padding: 2rem 1.5rem;
+    padding-top: 1rem;
+    margin: 0px;
+    text-align: center;
+    height: auto;
+    vertical-align: top;
+    float: left;
+    font-size: 6rem;
+    font-weight: 100;
+    background-color: transparent;
+    border: 2px solid #aba1a0;
+    color: #aba1a0 !important;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    &:hover {
+        box-shadow: 0 0 8px rgba(black,0.3);
+        background-color: rgba(white,0.2);
+    }
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 5px rgba(black,0.15);
+        // box-shadow: none;
+    }
+}
+.slick-home-prev {
+    left: 20px;
+}
+.slick-home-next {
+    right: 20px;
+}
