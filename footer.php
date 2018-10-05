@@ -21,9 +21,9 @@
           </div>
 
           <div class="bottombar">
-            <div class="f-item whiteText resource"><a href="/resources/" class="whiteText">Volunteer Resources »</a></div>
+            <div class="f-item whiteText resource"> </div>
             <div class="f-item social">
-                <a href="#" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/instagramicon.png" width="55px" alt=""></a>
+                <a href="https://www.instagram.com/rainbowscanada/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/instagramicon.png" width="55px" alt=""></a>
                 <a href="https://www.facebook.com/rainbowscanada/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/facebookicon.png" width="55px" alt=""></a>
             </div>
             <div class="f-item copyright">Copyright &copy; <?php echo date("Y"); ?> Rainbows Canda. All rights reserved.</div>
