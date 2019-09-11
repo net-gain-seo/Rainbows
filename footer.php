@@ -17,6 +17,7 @@
                 80 Bradford Street, Suite 545,<br/>
                 Barrie, ON  L4N 6S7
               </div>
+              <a href="https://www.rainbows.ca/sign-up-for-our-monthly-newsletter/" class="button orange" style="font-size: 20px;padding: 15px;margin-top:20px;">Stay In Touch</a>
             </div>
           </div>
 
