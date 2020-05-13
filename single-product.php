@@ -11,7 +11,12 @@ This is the default layout for the pages of your site. The default page is a ful
 				$mast_title       = get_post_meta( get_the_ID(), 'mast_title', true );
 				echo '<div class="container mast-overlay">';
 						echo '<h1>'.get_the_title().'</h1>';
-						echo '<p>Let\'s all pull up our socks and let grieving children know they\'re not alone!</p>';
+						if(get_the_ID() == 662){
+							echo '<p>Providing resources that let children know they\'re not alone</p>';
+						}
+						if(get_the_ID() == 592){
+							echo '<p>Let\'s all pull up our socks and let grieving children know they\'re not alone!</p>';
+						}
 				echo '</div>'; // End of mast-overlay container
 	echo '</div>'; // End of page-mast container
 ?>
